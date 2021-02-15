@@ -22,3 +22,10 @@ git log --prytty=shot    commit
 git log --prytty=oneline
 git log --oneline 
 git log --oneline --graph ветвления
+git log --prytty=format:"%h - %an %cd %s"
+git log --since=2020-08-23
+git log --author=name
+git log --all-match по всем авторам
+git log --grep=readme по содержимому коментариев
+git commit --amend отмена последнего коммита
+git commit --amend -m "commit"
