@@ -1,0 +1,15 @@
+git config --global user.name "Name"                  создать пользователя
+git config --global user.email "name@mail.ru"
+git config --list                                     посмотреть настройки
+git init                                              создать репозиторий
+git clone /address  new_adress_name   adress/http://)     клонировать репозиторий
+git add name_file									Добавить файл в index
+git commit -m "commit"  							добавить коммит(файл сохранить)
+git status -s  (shot)
+file .gitignore      внести файлы которые должны игнорироватся 
+git diff             посмотреть что изменялось в файлах
+git diff --staged  	Изменения которые попадут в коммит
+git diff --cached    тоже что и staged
+git rm name_file     удалить файл из из индекса если файл был изменени ключ F
+git rm  name_file -f
+git rm Name_file --cached удалит из индекса но не удаляет с диска
