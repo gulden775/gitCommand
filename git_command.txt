@@ -12,4 +12,13 @@ git diff --staged  	Изменения которые попадут в комм
 git diff --cached    тоже что и staged
 git rm name_file     удалить файл из из индекса если файл был изменени ключ F
 git rm  name_file -f
-git rm Name_file --cached удалит из индекса но не удаляет с диска
+git rm Name_file --cached     удалит из индекса но не удаляет с диска
+git mv name_file new_name_file    перименование файла фактичк=ески rm end add
+git log -2 покажет два последних коммита
+git log -1 последний соммит
+git log -p -1 (patch) что именно сделанно в коммите
+git log --stat статистика
+git log --prytty=shot    commit
+git log --prytty=oneline
+git log --oneline 
+git log --oneline --graph ветвления
