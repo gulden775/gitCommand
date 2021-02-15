@@ -29,3 +29,10 @@ git log --all-match по всем авторам
 git log --grep=readme по содержимому коментариев
 git commit --amend отмена последнего коммита
 git commit --amend -m "commit"
+git reset HEAD name_file   отмена добавления в индекс
+git restore --staged name_file тоже отмена 
+git checkout -- name_file можно использовать для отмены изменений в файле
+git restore name_file тоже отменяет изменения в файлах
+git restore :/ востановить все дерево
+git restore --source=HEAD --staged --worktree name_file source-от куда востановить worktree-востановить на диске
+
