@@ -27,12 +27,31 @@ git log --since=2020-08-23
 git log --author=name
 git log --all-match по всем авторам
 git log --grep=readme по содержимому коментариев
+git log --oneline --decorate --graph
+git log --oneline --graph --all (all)показывает псевдо графику веток
 git commit --amend отмена последнего коммита
 git commit --amend -m "commit"
 git reset HEAD name_file   отмена добавления в индекс
 git restore --staged name_file тоже отмена 
 git checkout -- name_file можно использовать для отмены изменений в файле
+git checkout name_tag перейти на метку
+git checkout --force принудительно перейти на ветку потеряв изменения
+git merge name_branch -мердженг ветки забрать файлы
+git merge --about отменить мердженг
+git checkout -b name_branch создать ветку и перйти на нее
 git restore name_file тоже отменяет изменения в файлах
 git restore :/ востановить все дерево
 git restore --source=HEAD --staged --worktree name_file source-от куда востановить worktree-востановить на диске
+git tag список меток
+git tag "name_tag(v2)" создать метку
+git show показать метки
+git tag -a v3.0 -m "version with3" метка полная fyfnbhjdfyfz
+git tag -l "v_name"
+git tag -d name_tag удалить метку
+git tag push origin --tags принудительно передать метки в удаленный репозиторий
+git branch name создать ветку
+
+git mergetool стороняя утилита для конфликтов Diff3
+
+
 
