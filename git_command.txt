@@ -67,6 +67,10 @@ git rebase --onto master server cllient для удаленного сервер
 git rebase --continue кода разрешены все конфликты
 		   --about    если не разрешены конфликты
 		   
+git clone копирование репозитория		   
+git remote -v посмотреть ссылку	
+
+git daemon --verbose --export-all --base-patch=/c/git0823/	   
 		   
 
 
