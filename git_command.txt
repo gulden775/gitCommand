@@ -71,7 +71,7 @@ git clone копирование репозитория
 git remote -v посмотреть ссылку	
 
 git daemon --verbose --export-all --base-patch=/c/git0823/	
-test
+
 
 
 
