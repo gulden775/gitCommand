@@ -69,9 +69,12 @@ git rebase --continue кода разрешены все конфликты
 		   
 git clone копирование репозитория		   
 git remote -v посмотреть ссылку	
-
+git remote add pb https:/github.com
 git daemon --verbose --export-all --base-patch=/c/git0823/	
 
+если не делается git push на сервере выполнить chown -R myuser:myuser /var/repo/progect.git
 
 
+git push запушить изменения
+git pull забрать изменения 
 
