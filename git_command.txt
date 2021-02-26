@@ -78,3 +78,8 @@ git daemon --verbose --export-all --base-patch=/c/git0823/
 git push запушить изменения
 git pull забрать изменения 
 
+git daemon --verbose --export-all --base-patch=/c/git/server
+
+git merge origin/master изменения разрешить конфликт потом git push
+
+
