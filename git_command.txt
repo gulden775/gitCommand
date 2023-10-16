@@ -82,4 +82,4 @@ git daemon --verbose --export-all --base-patch=/c/git/server
 
 git merge origin/master изменения разрешить конфликт потом git push
 
-
+test commit
